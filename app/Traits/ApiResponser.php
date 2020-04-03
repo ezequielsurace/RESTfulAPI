@@ -26,4 +26,9 @@ trait ApiResponser
     {
         return response()->json(['data' => $model], $code);
     }
+
+    protected function showMessage(string $message, $code = 200)
+    {
+        return response()->json(['data' => $message], $code);
+    }
 }
