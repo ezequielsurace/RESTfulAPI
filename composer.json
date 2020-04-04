@@ -16,7 +16,8 @@
         "laravel/helpers": "^1.2",
         "laravel/homestead": "^10.6",
         "laravel/tinker": "^2.0",
-        "laravel/ui": "^2.0"
+        "laravel/ui": "^2.0",
+        "spatie/laravel-fractal": "^5.7"
     },
     "require-dev": {
         "facade/ignition": "^2.0",
