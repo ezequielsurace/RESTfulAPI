@@ -10,6 +10,8 @@ class BuyerTransactionController extends ApiController
     public function __construct()
     {
         parent::__construct();
+        $this->middleware('can:view,buyer')->only(['index']);
+
     }
 
     /**
